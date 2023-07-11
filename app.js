@@ -1,29 +1,22 @@
-let name = 'Ivan'
-let surname = 'Ivanov'
-let age = 21
-let nationality = 'Belarusian'
+name = 'Igor'
+age = 21
+eye = 'gray-green'
+job = 'Frotend-developer'
 
-// const number = 5
-// const string = 'Igor'
-// const floor = 'Male'  
+console.log(typeof(name))
+console.log(typeof(age))
+console.log(typeof(eye))
+console.log(typeof(job))
 
-// number = 6
-// string = 'Darya'
-// floor = 'Female'
+let man = {
+    name: 'Igor',
+    age: 21,
+    eye: 'gray-green',
+    job: 'Frotend-developer',
+}
 
-job = 'Backend-developer'
-salary = 1000
-city = 'Los-Angeles'
+console.log(typeof(man))
 
-console.log(name)
-console.log(surname)
-console.log(age)
-console.log(nationality)
+let myElement = document.querySelector(".task__container")
 
-console.log(job)
-console.log(salary)
-console.log(city)
-
-// console.log(number)
-// console.log(string)
-// console.log(floor)
+console.log(myElement)
