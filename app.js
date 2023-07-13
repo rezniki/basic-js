@@ -40,3 +40,21 @@ console.log(cardElement);
 console.log(avatarElement);
 console.log(nameElement);
 
+let sumNumbers = function(numberA, numberB) {
+    console.log(numberA + numberB);
+}
+
+sumNumbers(12, 15);
+
+let helloWorld = function() {
+    console.log('Hello world)');
+}
+
+helloWorld();
+
+let sayHello = function(word, name) {
+    console.log(`Приветствую ${word}, ${name}`);
+}
+
+sayHello('вас', 'Игорь');
+
