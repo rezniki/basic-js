@@ -53,9 +53,13 @@ let buttonElement = document.querySelector('.task__button');
 buttonElement.onclick = function() {
     console.log('Произошел клик');
     taskElement.style.color = 'white';
-    let inputText = inputElement.value;
-    let newDiv = document.createElement('div');
-    newDiv.innerHTML += ""
+    nameElement = inputElement.value;
+    contentElement.innerHTML += `
+        <div class="task__card">
+            <div class="task__avatar"></div>
+            <p class="task__name">${nameElement}</p>
+        </div>
+    `
 };
 
 console.log(mainElement);
