@@ -2,14 +2,14 @@ let car = {
     engine: 800,
     speed: 300,
     stamp: 'Volkswagen',
-    color: 'white',
+    color: 'white'
 };
 
 let dog = {
     breed: 'Hachiko',
     height: 71,
     weight: 50,
-    country: 'Japan',
+    country: 'Japan'
 };
 
 dog.breed = 'Sheepdog';
@@ -53,6 +53,9 @@ let buttonElement = document.querySelector('.task__button');
 buttonElement.onclick = function() {
     console.log('Произошел клик');
     taskElement.style.color = 'white';
+    let inputText = inputElement.value;
+    let newDiv = document.createElement('div');
+    newDiv.innerHTML += ""
 };
 
 console.log(mainElement);
