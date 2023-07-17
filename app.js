@@ -53,13 +53,16 @@ let buttonElement = document.querySelector('.task__button');
 buttonElement.onclick = function() {
     console.log('Произошел клик');
     taskElement.style.color = 'white';
+    let newCardElement = document.createElement('div');
+    newCardElement.className = 'task__card';
+    let newAvatarElement = document.createElement('div');
+    newAvatarElement.className = 'task__avatar';
+    let newNameElement = document.createElement('p');
+    newNameElement.className = 'task__name';
     nameElement = inputElement.value;
-    contentElement.innerHTML += `
-        <div class="task__card">
-            <div class="task__avatar"></div>
-            <p class="task__name">${nameElement}</p>
-        </div>
-    `;
+    newNameElement.textContent = `${nameElement}`;
+    newCardElement.append(newAvatarElement, newNameElement);
+    contentElement.append(newCardElement);
 };
 
 console.log(mainElement);
