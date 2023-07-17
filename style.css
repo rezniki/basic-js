@@ -29,7 +29,7 @@
     margin-top: 40px;
 }
 
-.taks__content {
+.task__content {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;

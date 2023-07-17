@@ -59,7 +59,7 @@ buttonElement.onclick = function() {
             <div class="task__avatar"></div>
             <p class="task__name">${nameElement}</p>
         </div>
-    `
+    `;
 };
 
 console.log(mainElement);
