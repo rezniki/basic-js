@@ -60,7 +60,7 @@ buttonElement.onclick = function() {
     let newNameElement = document.createElement('p');
     newNameElement.className = 'task__name';
     nameElement = inputElement.value;
-    newNameElement.textContent = `${nameElement}`;
+    newNameElement.textContent = nameElement;
     newCardElement.append(newAvatarElement, newNameElement);
     contentElement.append(newCardElement);
 };
