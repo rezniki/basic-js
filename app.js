@@ -106,7 +106,7 @@ let characterOfPeoples = function(elemPeople) {
 }
 
 characteristicPeople.forEach(characterOfPeoples);
-characterOfPeoples(console.log(sumAgePeople));
+console.log(sumAgePeople);
 
 
 
