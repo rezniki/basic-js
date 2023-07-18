@@ -74,3 +74,36 @@ console.log(contentElement);
 console.log(cardElement);
 console.log(avatarElement);
 console.log(nameElement);
+
+let characteristicPeople = [
+    {
+        name: 'Steve', 
+        age: 26, 
+        job: 'Businessman', 
+        salary: '$1 billion'
+    },
+
+    {
+        name: 'Bill', 
+        age: 45, 
+        job: 'Shareholder the company Microsoft', 
+        salary: '$267 millions'
+    },
+
+    {
+        name: 'Elon', 
+        age: 45, 
+        job: 'Chief engineer of SpaceX', 
+        salary: '$15,3 billion'
+    }
+];
+
+let characterOfPeoples = function(elemPeople) {
+    console.log(elemPeople.job);
+};
+
+characteristicPeople.forEach(characterOfPeoples);
+
+
+
+
