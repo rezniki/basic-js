@@ -92,17 +92,24 @@ let characteristicPeople = [
 
     {
         name: 'Elon', 
-        age: 45, 
+        age: 52, 
         job: 'Chief engineer of SpaceX', 
         salary: '$15,3 billion'
     }
 ];
 
+let sumAgePeople = 0;
+
 let characterOfPeoples = function(elemPeople) {
     console.log(elemPeople.job);
-};
+    sumAgePeople += elemPeople.age;
+}
 
 characteristicPeople.forEach(characterOfPeoples);
+characterOfPeoples(console.log(sumAgePeople));
+
+
+
 
 
 
