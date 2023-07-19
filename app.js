@@ -143,6 +143,16 @@ console.log(sumSpeedCars);
 console.log(sumReleaseCars);
 console.log(sumSpeedRelease);
 
+const numbers = [12, 5, 8, 17, 3, 14, 6, 9, 1];
+
+console.log('Числа больше 10:');
+
+numbers.forEach(function(number) {
+    if (number > 10) {
+        console.log(number);
+    }
+});
+
 
 
 
