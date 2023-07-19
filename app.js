@@ -103,10 +103,42 @@ let sumAgePeople = 0;
 let characterOfPeoples = function(elemPeople) {
     console.log(elemPeople.job);
     sumAgePeople += elemPeople.age;
-}
+};
 
 characteristicPeople.forEach(characterOfPeoples);
 console.log(sumAgePeople);
+
+let cars = [
+    {
+        stamp: 'Volkswagen',
+        speed: 216,
+        release: 2019
+    },
+
+    {
+        stamp: 'Ford',
+        speed: 214,
+        release: 2020
+    },
+
+    {
+        stamp: 'Mersedes',
+        speed: 210,
+        release: 2023
+    }
+];
+
+let sumSpeedCars = 0;
+let sumReleaseCars = 0;
+
+let descriptionCars = function(elemCar) {
+    sumSpeedCars += elemCar.speed;
+    sumReleaseCars += elemCar.release;
+};
+
+cars.forEach(descriptionCars);
+console.log(sumSpeedCars);
+console.log(sumReleaseCars);
 
 
 
