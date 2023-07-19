@@ -134,11 +134,14 @@ let sumReleaseCars = 0;
 let descriptionCars = function(elemCar) {
     sumSpeedCars += elemCar.speed;
     sumReleaseCars += elemCar.release;
+    sumSpeedRelease = sumSpeedCars + sumReleaseCars;
+
 };
 
 cars.forEach(descriptionCars);
 console.log(sumSpeedCars);
 console.log(sumReleaseCars);
+console.log(sumSpeedRelease);
 
 
 
