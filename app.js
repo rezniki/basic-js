@@ -145,6 +145,12 @@ console.log(sumSpeedRelease);
 
 const numbers = [12, 5, 8, 17, 3, 14, 6, 9, 1];
 
+// numbers.forEach(number);
+
+// if (number > 10) {
+//     console.log(number);
+// };
+
 console.log('Числа больше 10:');
 
 numbers.forEach(function(number) {
@@ -152,6 +158,34 @@ numbers.forEach(function(number) {
         console.log(number);
     }
 });
+
+const names = ['John', 'James', 'Antony', 'Mark', 'Daniel', 'Micael', 'Igor'];
+
+let functionNames = function(name) {
+    if (name === 'Igor') {
+        console.log('Igor, javascript is power');
+    }
+
+    console.log(name);
+};
+
+names.forEach(functionNames);
+
+const randomNumbers = [3, 14, 6, 12, 1, 5, 2];
+
+let sumRandomNumbers = 0;
+
+const functionRandomNumbers = function(randomNumber) {
+    if (randomNumber > 8) {
+        sumRandomNumbers += randomNumber;
+        console.log(sumRandomNumbers);
+    }
+}; 
+
+randomNumbers.forEach(functionRandomNumbers);
+
+
+
 
 
 
