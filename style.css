@@ -66,6 +66,7 @@
     width: 150px;
     height: 200px;
     padding: 10px;
+    cursor: pointer;
 }
 
 .product__image {
